@@ -1,0 +1,89 @@
+{
+  "tone_gain_db": {
+    "direct": {
+      "50": 0.0,
+      "100": 0.0,
+      "150": 0.0
+    },
+    "rc1": {
+      "50": -1.3446315430747582,
+      "100": -3.8944775094444,
+      "150": -6.300286241217393
+    },
+    "rc2": {
+      "50": -2.689263086149514,
+      "100": -7.7889550188888,
+      "150": -12.600572482434785
+    },
+    "cic3": {
+      "50": -6.878601990462929,
+      "100": -35.152605591392366,
+      "150": -51.0685313965584
+    },
+    "cic5": {
+      "50": -11.46433665077155,
+      "100": -58.58767598565394,
+      "150": -85.11421899426401
+    },
+    "rc1_cic5": {
+      "50": -12.808968193846306,
+      "100": -62.48215349509834,
+      "150": -91.41450523548139
+    },
+    "ads1299_250_cic3": {
+      "50": -1.737670881591151,
+      "100": -7.260211899850171,
+      "150": -17.825686932222506
+    }
+  },
+  "blocks": {
+    "direct": {
+      "fundamental_relative_pct": 100.0,
+      "folded_harmonics_pct_of_direct_line": 10.11236438704725,
+      "folded_harmonics_relative_db": 0.0,
+      "windowed_beta_pct_of_direct_line": 9.767866982945021
+    },
+    "unfiltered_decimation": {
+      "fundamental_relative_pct": 100.13458524596625,
+      "folded_harmonics_pct_of_direct_line": 10.12597410639515,
+      "folded_harmonics_relative_db": 0.005841019909737507,
+      "windowed_beta_pct_of_direct_line": 9.781013059685701
+    },
+    "rc1": {
+      "fundamental_relative_pct": 73.39491260463467,
+      "folded_harmonics_pct_of_direct_line": 3.775808137835017,
+      "folded_harmonics_relative_db": -4.278427923582723,
+      "windowed_beta_pct_of_direct_line": 3.6482094823668865
+    },
+    "rc2": {
+      "fundamental_relative_pct": 53.82251655565336,
+      "folded_harmonics_pct_of_direct_line": 1.4562590888236713,
+      "folded_harmonics_relative_db": -8.416140616033411,
+      "windowed_beta_pct_of_direct_line": 1.4111120828949413
+    },
+    "cic3": {
+      "fundamental_relative_pct": 20.516437092763688,
+      "folded_harmonics_pct_of_direct_line": 0.002447674605086988,
+      "folded_harmonics_relative_db": -36.16099028490459,
+      "windowed_beta_pct_of_direct_line": 0.0070789379645652155
+    },
+    "cic5": {
+      "fundamental_relative_pct": 7.137660263149018,
+      "folded_harmonics_pct_of_direct_line": 9.91504470595748e-06,
+      "folded_harmonics_relative_db": -60.085580337697444,
+      "windowed_beta_pct_of_direct_line": 0.0016569270946031574
+    },
+    "rc1_cic5": {
+      "fundamental_relative_pct": 5.237060868607316,
+      "folded_harmonics_pct_of_direct_line": 3.1575126348189827e-06,
+      "folded_harmonics_relative_db": -65.05507613441773,
+      "windowed_beta_pct_of_direct_line": 0.0012109847292986725
+    },
+    "polyphase": {
+      "fundamental_relative_pct": 100.14068862794116,
+      "folded_harmonics_pct_of_direct_line": 5.947495526522188e-08,
+      "folded_harmonics_relative_db": -82.30518586456624,
+      "windowed_beta_pct_of_direct_line": 0.023099173756410296
+    }
+  }
+}

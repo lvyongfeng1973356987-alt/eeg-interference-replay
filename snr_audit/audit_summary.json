@@ -1,0 +1,464 @@
+{
+  "gain_audit": {
+    "all_python_files_scanned": 87,
+    "sample_cases_tested": 506,
+    "gain_locations": [
+      {
+        "file": "calibration_boundaries/analysis/calibration_boundary.py",
+        "line": 102,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 0.0
+      },
+      {
+        "file": "calibration_boundaries/analysis/calibration_boundary.py",
+        "line": 104,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 8.881784197001252e-16
+      },
+      {
+        "file": "calibration_boundaries/analysis/calibration_replay.py",
+        "line": 103,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 1.7763568394002505e-15
+      },
+      {
+        "file": "calibration_boundaries/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "calibration_boundaries/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "calibration_order/analysis/calibration_replay.py",
+        "line": 100,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 1.7763568394002505e-15
+      },
+      {
+        "file": "calibration_order/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "calibration_order/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/calibration_replay.py",
+        "line": 103,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 1.7763568394002505e-15
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "decoding_inference/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "decoding_inference/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "decoding_sensitivity/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "decoding_sensitivity/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "emg_release/analysis/calibration_replay.py",
+        "line": 103,
+        "method": "power-array gain",
+        "max_abs_snr_error_db": 1.7763568394002505e-15
+      },
+      {
+        "file": "emg_release/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "emg_release/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "feature_and_decoding_audit/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "feature_and_decoding_audit/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "front_end/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "line_retention_and_mixtures/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "line_retention_and_mixtures/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "seed_covariance_decoding/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "seed_covariance_decoding/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "seed_joint_decoding/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "seed_joint_decoding/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "spatial_calibration/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "spatial_calibration/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      },
+      {
+        "file": "spatial_reference/analysis/followup.py",
+        "line": 168,
+        "method": "global scalar",
+        "max_abs_snr_error_db": 3.3936895160735503e-07
+      },
+      {
+        "file": "spatial_reference/analysis/paired_audit.py",
+        "line": 88,
+        "method": "separable spatial gains",
+        "max_abs_snr_error_db": 1.9073486328125e-06
+      }
+    ],
+    "base_10_power_inventory": [
+      {
+        "file": "calibration_boundaries/analysis/calibration_boundary.py",
+        "line": 102,
+        "exponent": "0.5"
+      },
+      {
+        "file": "calibration_boundaries/analysis/calibration_boundary.py",
+        "line": 104,
+        "exponent": "0.5"
+      },
+      {
+        "file": "calibration_boundaries/analysis/calibration_replay.py",
+        "line": 103,
+        "exponent": "-TARGET / 10"
+      },
+      {
+        "file": "calibration_boundaries/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "calibration_boundaries/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "calibration_order/analysis/calibration_replay.py",
+        "line": 100,
+        "exponent": "-TARGET / 10"
+      },
+      {
+        "file": "calibration_order/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "calibration_order/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/calibration_replay.py",
+        "line": 103,
+        "exponent": "-TARGET / 10"
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "deap_decoding_and_weights/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "decoding_inference/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "decoding_inference/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "decoding_sensitivity/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "decoding_sensitivity/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "emg_release/analysis/calibration_replay.py",
+        "line": 103,
+        "exponent": "-TARGET / 10"
+      },
+      {
+        "file": "emg_release/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "emg_release/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "feature_and_decoding_audit/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "feature_and_decoding_audit/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "front_end/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "line_retention_and_mixtures/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "line_retention_and_mixtures/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "methods_audit/audit_methods.py",
+        "line": 65,
+        "exponent": "mean_log / 10"
+      },
+      {
+        "file": "seed_covariance_decoding/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "seed_covariance_decoding/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "seed_joint_decoding/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "seed_joint_decoding/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "spatial_calibration/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "spatial_calibration/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      },
+      {
+        "file": "spatial_reference/analysis/followup.py",
+        "line": 169,
+        "exponent": "-db / 10"
+      },
+      {
+        "file": "spatial_reference/analysis/paired_audit.py",
+        "line": 90,
+        "exponent": "-SNR / 10"
+      }
+    ],
+    "demonstration_noise_to_signal_power": {
+      "-5": 3.1622776601683795,
+      "-20": 100.0
+    }
+  },
+  "calibration_ledger": {
+    "calibration_order/results/calibration_trials.csv": {
+      "rows": 15360,
+      "hp": {
+        "line": {
+          "noise_retained": 1.0031800372435753,
+          "beta_pre_db": -4.79351307519949,
+          "broadband_pre_db": -4.990104969428667
+        },
+        "synthetic": {
+          "noise_retained": 0.0920196170423058,
+          "beta_pre_db": 5.721194253455373,
+          "broadband_pre_db": 5.435135040840725
+        },
+        "joint": {
+          "noise_retained": 0.511093885104894,
+          "beta_pre_db": -1.6953997928474134,
+          "broadband_pre_db": -2.052590143053691
+        }
+      }
+    },
+    "spatial_calibration/calibration_trials.csv": {
+      "rows": 15360,
+      "hp": {
+        "line": {
+          "noise_retained": 1.0031800372435753,
+          "beta_pre_db": -4.79351307519949,
+          "broadband_pre_db": -4.990104969428667
+        },
+        "synthetic": {
+          "noise_retained": 0.0920196170423058,
+          "beta_pre_db": 5.721194253455373,
+          "broadband_pre_db": 5.435135040840725
+        },
+        "joint": {
+          "noise_retained": 0.511093885104894,
+          "beta_pre_db": -1.6953997928474134,
+          "broadband_pre_db": -2.052590143053691
+        }
+      }
+    },
+    "emg_release/results/aligned/calibration_trials.csv": {
+      "rows": 15360,
+      "hp": {
+        "line": {
+          "noise_retained": 1.0031800372435753,
+          "beta_pre_db": -4.79351307519949,
+          "broadband_pre_db": -4.990104969428667
+        },
+        "synthetic": {
+          "noise_retained": 0.0920196170423058,
+          "beta_pre_db": 5.721194253455373,
+          "broadband_pre_db": 5.435135040840725
+        },
+        "joint": {
+          "noise_retained": 0.5110898239946947,
+          "beta_pre_db": -1.7034081890836101,
+          "broadband_pre_db": -2.052557366798505
+        }
+      }
+    }
+  },
+  "gains_db": {
+    "direct": {
+      "50": 0.0,
+      "100": 0.0,
+      "150": 0.0
+    },
+    "unfiltered_decimation": {
+      "50": 0.0,
+      "100": 0.0,
+      "150": 0.0
+    },
+    "rc1": {
+      "50": -1.344631543074756,
+      "100": -3.894477509444401,
+      "150": -6.300286241217393
+    },
+    "rc2": {
+      "50": -2.689263086149514,
+      "100": -7.7889550188888,
+      "150": -12.600572482434785
+    },
+    "cic3": {
+      "50": -6.87860199046294,
+      "100": -35.152605591392366,
+      "150": -51.0685313965585
+    },
+    "cic5": {
+      "50": -11.464336650771559,
+      "100": -58.587675985653945,
+      "150": -85.11421899426489
+    },
+    "rc1_cic5": {
+      "50": -12.808968193846315,
+      "100": -62.482153495098345,
+      "150": -91.41450523548228
+    },
+    "polyphase": {
+      "50": 0.006105561145656485,
+      "100": -71.09642300146335,
+      "150": -79.89056148359941
+    }
+  }
+}

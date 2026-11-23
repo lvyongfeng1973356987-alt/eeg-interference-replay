@@ -1,0 +1,108 @@
+{
+  "control_statistics": {
+    "mean": 0.7657741719178093,
+    "sd": 0.09638672097682546,
+    "first_crossing_below_1_over_e_seconds": 0.5234375,
+    "autocorrelation_at_2_seconds": 0.025230395006717057,
+    "fraction_above_0_60": 0.9561252170138889,
+    "fraction_above_0_90": 0.08371744791666667
+  },
+  "tone_gain_db": {
+    "direct": {
+      "50": 0.0,
+      "100": 0.0,
+      "150": 0.0
+    },
+    "rc1": {
+      "50": -1.3446315430747582,
+      "100": -3.8944775094444,
+      "150": -6.300286241217393
+    },
+    "rc2": {
+      "50": -2.689263086149514,
+      "100": -7.7889550188888,
+      "150": -12.600572482434785
+    },
+    "cic3": {
+      "50": -6.878601990462929,
+      "100": -35.152605591392366,
+      "150": -51.0685313965584
+    },
+    "cic5": {
+      "50": -11.46433665077155,
+      "100": -58.58767598565394,
+      "150": -85.11421899426401
+    },
+    "rc1_cic5": {
+      "50": -12.808968193846306,
+      "100": -62.48215349509834,
+      "150": -91.41450523548139
+    },
+    "ads1299_250_cic3": {
+      "50": -1.737670881591151,
+      "100": -7.260211899850171,
+      "150": -17.825686932222506
+    }
+  },
+  "retained_power": {
+    "direct": {
+      "fundamental_relative_pct": 100.0,
+      "folded_harmonics_pct_of_direct_line": 10.112444098159525,
+      "folded_harmonics_relative_db": 0.0,
+      "windowed_beta_pct_of_direct_line": 9.767255016549495
+    },
+    "unfiltered_decimation": {
+      "fundamental_relative_pct": 100.13458469782606,
+      "folded_harmonics_pct_of_direct_line": 10.126053923744891,
+      "folded_harmonics_relative_db": 0.005841019462971846,
+      "windowed_beta_pct_of_direct_line": 9.780400272895072
+    },
+    "rc1": {
+      "fundamental_relative_pct": 73.39492564028394,
+      "folded_harmonics_pct_of_direct_line": 3.7760126962173177,
+      "folded_harmonics_relative_db": -4.278226879645984,
+      "windowed_beta_pct_of_direct_line": 3.6482618249687473
+    },
+    "rc2": {
+      "fundamental_relative_pct": 53.82287249504978,
+      "folded_harmonics_pct_of_direct_line": 1.4562896346661622,
+      "folded_harmonics_relative_db": -8.416083754610632,
+      "windowed_beta_pct_of_direct_line": 1.4113398380270123
+    },
+    "cic3": {
+      "fundamental_relative_pct": 20.51679569564326,
+      "folded_harmonics_pct_of_direct_line": 0.0024523195565613917,
+      "folded_harmonics_relative_db": -36.15279072309428,
+      "windowed_beta_pct_of_direct_line": 0.007300127533804857
+    },
+    "cic5": {
+      "fundamental_relative_pct": 7.138117722570254,
+      "folded_harmonics_pct_of_direct_line": 1.1359287219054842e-05,
+      "folded_harmonics_relative_db": -59.49505053037342,
+      "windowed_beta_pct_of_direct_line": 0.0018316829038823367
+    },
+    "rc1_cic5": {
+      "fundamental_relative_pct": 5.2375129755330745,
+      "folded_harmonics_pct_of_direct_line": 4.250514735255385e-06,
+      "folded_harmonics_relative_db": -63.76414607751968,
+      "windowed_beta_pct_of_direct_line": 0.001372977265158812
+    },
+    "polyphase": {
+      "fundamental_relative_pct": 100.13989855617353,
+      "folded_harmonics_pct_of_direct_line": 1.6037963383611027e-05,
+      "folded_harmonics_relative_db": -57.997069162358805,
+      "windowed_beta_pct_of_direct_line": 0.023412797574148648
+    }
+  },
+  "soundtrack_replay_reference": {
+    "sample_count": 921600,
+    "rate_hz": 128,
+    "control_float32_little_endian_sha256": "8c7ea55738e8075a61ba773e4a9a69c303e72ea351e786bb2616a3180efd612b",
+    "mean": 0.766,
+    "sd": 0.097,
+    "first_crossing_below_1_over_e_seconds": 0.508,
+    "autocorrelation_at_2_seconds": 0.41,
+    "direct_beta_pct": 9.767866982945021,
+    "polyphase_beta_pct": 0.023099173756410296
+  }
+}

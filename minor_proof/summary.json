@@ -1,0 +1,111 @@
+{
+  "variance_floor": 1e-10,
+  "counts": {
+    "SEED/clean/4-8/window": {
+      "values": 2343600,
+      "below_floor": 0,
+      "min": 0.00857427716255188
+    },
+    "SEED/clean/4-8/reference": {
+      "values": 41850,
+      "below_floor": 0,
+      "min": 0.012985204346477985
+    },
+    "SEED/clean/8-14/window": {
+      "values": 2343600,
+      "below_floor": 0,
+      "min": 0.00934603437781334
+    },
+    "SEED/clean/8-14/reference": {
+      "values": 41850,
+      "below_floor": 0,
+      "min": 0.01736883446574211
+    },
+    "SEED/clean/14-31/window": {
+      "values": 2343600,
+      "below_floor": 0,
+      "min": 0.028914563357830048
+    },
+    "SEED/clean/14-31/reference": {
+      "values": 41850,
+      "below_floor": 0,
+      "min": 0.039193831384181976
+    },
+    "SEED/clean/31-49/window": {
+      "values": 2343600,
+      "below_floor": 0,
+      "min": 0.02824234589934349
+    },
+    "SEED/clean/31-49/reference": {
+      "values": 41850,
+      "below_floor": 0,
+      "min": 0.032076142728328705
+    },
+    "SEED/matched_joint_beta": {
+      "values": 12722400,
+      "below_floor": 0,
+      "min": 0.028914563357830048
+    },
+    "DEAP/clean/4-8/window": {
+      "values": 2539520,
+      "below_floor": 0,
+      "min": 0.46653687953948975
+    },
+    "DEAP/clean/4-8/reference": {
+      "values": 40960,
+      "below_floor": 0,
+      "min": 0.5773731470108032
+    },
+    "DEAP/clean/8-14/window": {
+      "values": 2539520,
+      "below_floor": 0,
+      "min": 0.5784549713134766
+    },
+    "DEAP/clean/8-14/reference": {
+      "values": 40960,
+      "below_floor": 0,
+      "min": 0.7368722558021545
+    },
+    "DEAP/clean/14-31/window": {
+      "values": 2539520,
+      "below_floor": 0,
+      "min": 0.7518395185470581
+    },
+    "DEAP/clean/14-31/reference": {
+      "values": 40960,
+      "below_floor": 0,
+      "min": 1.05276620388031
+    },
+    "DEAP/clean/31-49/window": {
+      "values": 2539520,
+      "below_floor": 0,
+      "min": 0.16642028093338013
+    },
+    "DEAP/clean/31-49/reference": {
+      "values": 40960,
+      "below_floor": 0,
+      "min": 0.1949928253889084
+    },
+    "DEAP/matched_joint_beta": {
+      "values": 11673600,
+      "below_floor": 0,
+      "min": 0.7518395185470581
+    }
+  },
+  "seed_residual_aggregation": {
+    "aa": {
+      "variance_ratio": 6.905939903751047,
+      "correlation": 0.36956647406956533,
+      "residual": 6.198152658574665,
+      "product_of_means": 5.962730921969004,
+      "realizations": 900
+    },
+    "direct": {
+      "variance_ratio": 6.061687551606398,
+      "correlation": 0.3622260172642936,
+      "residual": 5.4598781758378525,
+      "product_of_means": 5.266347545108543,
+      "realizations": 900
+    }
+  }
+}
